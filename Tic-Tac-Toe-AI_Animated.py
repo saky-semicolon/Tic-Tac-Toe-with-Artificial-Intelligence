@@ -1,3 +1,4 @@
+
                                                 #   TIC-TAC-TOE AI  #
 from tkinter import *
 from tkinter import messagebox
@@ -23,7 +24,7 @@ class TIC_TAC_TOE_AI:
         self.decorating()
 
     def decorating(self):# Basic Set-up
-        Label(self.make_canvas, text="Tic-Tac-Toe AI", bg="#141414", fg="#00FF00", font=("Lato", 25, "bold")).place(x=110, y=10)
+        Label(self.make_canvas, text="Tic-Tac-Toe with AI", bg="#141414", fg="#00FF00", font=("Lato", 25, "bold")).place(x=80, y=10)
         self.btn_1 = Button(self.make_canvas, text="", font=("Arial", 15, "bold", "italic"), width=5, bg="#262626", activebackground="#262626", bd=3, command=lambda: self.__human_play(1), state=DISABLED)
         self.btn_1.place(x=20,y=100)
         self.btn_2 = Button(self.make_canvas, text="", font=("Arial", 15, "bold", "italic"), width=5, bg="#262626", activebackground="#262626", bd=3, command=lambda: self.__human_play(2), state=DISABLED)
